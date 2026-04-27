@@ -58,8 +58,20 @@ h1 {
     border-radius: 10px;
     margin-bottom: 25px;
     border: 1px solid #3a2a2a;
+      display: inline-block;
+    background-color: #1a1a1a;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid #ff2e2e;
+    font-size: 13px;
+    transition: 0.3s;
 }
 
+.fic-info:hover {
+    background-color: #ff2e2e;
+    color: black;
+}
 .fic-info span {
     color: #ff4fa3;
     font-weight: bold;
