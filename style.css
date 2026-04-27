@@ -2,8 +2,8 @@
 body {
     margin: 0;
     font-family: Georgia, "Times New Roman", serif;
-    background-color: #1e1414;
-    color: #f5eaea;
+    background-color: #121212;
+    color: #eaeaea;
 }
 
 /* === NAVBAR === */
@@ -12,8 +12,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 25px;
-    background-color: #2a1b1b;
-    border-bottom: 1px solid #3a2a2a;
+    background-color: #1c1c1c;
+    border-bottom: 1px solid #2c2c2c;
 }
 
 .logo {
@@ -24,7 +24,7 @@ body {
 }
 
 .nav-links a {
-    color: #f5eaea;
+    color: #eaeaea;
     text-decoration: none;
     margin-left: 15px;
     padding: 6px 12px;
@@ -34,12 +34,12 @@ body {
 
 .nav-links a:hover {
     background-color: #ff4fa3;
-    color: #1e1414;
+    color: #121212;
 }
 
 /* === КОНТЕЙНЕР === */
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
     padding: 20px;
 }
@@ -51,30 +51,26 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* === ІНФО ПРО ФІК === */
+/* === ТЕГИ === */
 .fic-info {
-    background-color: #241818;
-    padding: 15px;
-    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-bottom: 25px;
-    border: 1px solid #3a2a2a;
-      display: inline-block;
-    background-color: #1a1a1a;
+}
+
+.tag {
+    background-color: #1e1e1e;
     padding: 6px 12px;
-    margin: 5px;
     border-radius: 15px;
-    border: 1px solid #ff2e2e;
+    border: 1px solid #ff4fa3;
     font-size: 13px;
     transition: 0.3s;
 }
 
-.fic-info:hover {
-    background-color: #ff2e2e;
-    color: black;
-}
-.fic-info span {
-    color: #ff4fa3;
-    font-weight: bold;
+.tag:hover {
+    background-color: #ff4fa3;
+    color: #121212;
 }
 
 /* === СПИСОК ЧАСТИН === */
@@ -87,17 +83,17 @@ h1 {
 .chapter {
     display: block;
     text-decoration: none;
-    color: #f5eaea;
-    background-color: #2a1b1b;
+    color: #eaeaea;
+    background-color: #1c1c1c;
     padding: 12px;
     border-radius: 10px;
-    border: 1px solid #3a2a2a;
+    border: 1px solid #2c2c2c;
     transition: 0.3s;
 }
 
 .chapter:hover {
     background-color: #ff4fa3;
-    color: #1e1414;
+    color: #121212;
     transform: scale(1.03);
 }
 
@@ -106,9 +102,9 @@ h1 {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
-    background-color: #2a1b1b;
-    border-top: 1px solid #3a2a2a;
-    color: #aaa;
+    background-color: #1c1c1c;
+    border-top: 1px solid #2c2c2c;
+    color: #888;
 }
 
 /* === МОБІЛКА === */
