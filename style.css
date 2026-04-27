@@ -42,7 +42,18 @@ body {
     margin: auto;
     padding: 25px;
 }
+.cover {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+.cover img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 79, 163, 0.6);
+}
 /* ЗАГОЛОВОК */
 h1 {
     text-align: center;
