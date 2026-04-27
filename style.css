@@ -52,25 +52,32 @@ h1 {
 }
 
 /* === ТЕГИ === */
+/* === ТЕГИ === */
 .fic-info {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+    flex-wrap: wrap;        /* чтобы переносились */
+    gap: 12px;              /* расстояние между тегами */
     margin-bottom: 25px;
 }
 
+/* САМ ТЕГ */
 .tag {
+    display: inline-block;
     background-color: #1e1e1e;
-    padding: 6px 12px;
-    border-radius: 15px;
+    padding: 10px 16px;     /* больше размер */
+    border-radius: 20px;
     border: 1px solid #ff4fa3;
-    font-size: 13px;
-    transition: 0.3s;
+    font-size: 15px;        /* увеличили текст */
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+/* ЭФФЕКТ НАВЕДЕНИЯ */
 .tag:hover {
     background-color: #ff4fa3;
     color: #121212;
+    transform: scale(1.1);        /* увеличивается */
+    box-shadow: 0 0 10px #ff4fa3; /* свечение */
 }
 
 /* === СПИСОК ЧАСТИН === */
@@ -136,4 +143,4 @@ h1 {
     .chapter {
         text-align: center;
     }
-}
+    }
