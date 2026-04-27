@@ -1,0 +1,89 @@
+/* === ОСНОВА === */
+body {
+    background-color: #2a1a1a;
+    color: #f5eaea;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* === NAVBAR === */
+.navbar {
+    background-color: #1a0f0f;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ff2e88;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: #f5eaea;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff2e88;
+}
+
+/* === КОНТЕЙНЕР === */
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* === ЗАГОЛОВОК === */
+h1 {
+    text-align: center;
+    color: #ff2e88;
+}
+
+/* === ІНФО ПРО ФІК === */
+.fic-info {
+    background-color: #1a0f0f;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.fic-info span {
+    color: #ff2e88;
+}
+
+/* === СПИСОК ЧАСТИН === */
+.chapters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chapter {
+    display: block;
+    background-color: #1a0f0f;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #ff2e88;
+    transition: 0.3s;
+}
+
+.chapter:hover {
+    background-color: #ff2e88;
+    color: black;
+}
+
+/* === FOOTER === */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+}
